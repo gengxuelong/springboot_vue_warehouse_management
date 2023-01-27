@@ -1,13 +1,6 @@
 <template>
-  <div class="loginBody">
-    <div class="loginDiv">
-      <div class="login-content">
-        <h1 class="login-title">
-          user login page
-        </h1>
-
-      </div>
-    </div>
+  <div>
+    <p>this is index page</p>
   </div>
 </template>
 

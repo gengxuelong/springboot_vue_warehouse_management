@@ -56,6 +56,7 @@ export default {
       this.confirm_disabled=true
       this.$refs.formRef.validate((valid)=>{
         if(valid){
+          // this.$router.replace('/Index')
           this.$axios.post(this.$httpUrl+'/user/login',this.formData)
               .then(res=>res.data).then(res=>{
             console.log(res)
